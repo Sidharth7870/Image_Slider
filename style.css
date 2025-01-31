@@ -12,12 +12,12 @@
 
 .slider
 {
-    width: 3600.5px;
+    width: 2880.9px;
     height:480px;
     background-color: red;
     float: left;
     position: relative;
-    animation: slid 5s nfinite;
+    animation: slid 5s infinite;
     -moz-animation: slid 5s infinite;
     -webkit-animation: slid 5s infinite;
     -o-animation: slid 5s infinite;
@@ -25,17 +25,16 @@
 }
 
 @keyframes slid {
-    0% {top-left: 0px;}
-    10% {top-left: -720px;}
-    20% {top-left: -720px;}
-    30% {top-left: -1440px;}
-    40% {top-left: -1440px;}
-    50% {top-left: -2160px;}
-    60% {top-left: -2160px;}
-    70% {top-left: -2880px;}
-    80% {top-left: -2880px;}
-    90% {top-left: -3600px;}
-    100% {top-left: 0px;}
+    0% {top:0; left: 0px;}
+    10% {top:0; left: -720px;}
+    20% {top:0; left: -720px;}
+    30% {top:0; -left: -1440px;}
+    50% {top:0; left: -2160px;}
+    60% {top:0; left: -2160px;}
+    70% {top:0; left: -2880px;}
+    80% {top:0; left: -2880px;}
+    90% {top:0; left: -3600px;}
+    100% {top:0; left: 0px;}
 }
 
 .imge
