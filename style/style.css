@@ -16,7 +16,26 @@
     height:480px;
     background-color: red;
     float: left;
+    position: relative;
     animation: slider 5s infinite;
+    -moz-animation: slider 5s infinite;
+    -webkit-animation: slider 5s infinite;
+    -o-animation: slider 5s infinite;
+    -ms-animation: slider 5s infinite;
+}
+
+@keyframes slider {
+    0% {top-left: 0px;}
+    10% {top-left: -720px;}
+    20% {top-left: -720px;}
+    30% {top-left: -1440px;}
+    40% {top-left: -1440px;}
+    50% {top-left: -2160px;}
+    60% {top-left: -2160px;}
+    70% {top-left: -2880px;}
+    80% {top-left: -2880px;}
+    90% {top-left: -3600px;}
+    100% {top-left: 0px;}
 }
 
 .imge
