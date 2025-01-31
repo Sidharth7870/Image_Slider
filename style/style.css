@@ -16,6 +16,7 @@
     height:480px;
     background-color: red;
     float: left;
+    animation: slider 5s infinite;
 }
 
 .imge
